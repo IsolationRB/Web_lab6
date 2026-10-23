@@ -1,0 +1,94 @@
+.container{
+	display: flex;
+	
+}
+img{
+	width: 200px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 48px;
+	padding: 20px;
+	word-spacing: 20px;
+	background-image: linear-gradient(to bottom right, red,black)
+}
+a{
+	text-decoration: none;
+	color: yellow;
+	background-image: linear-gradient(to bottom right, white,black);
+	padding: 10px;
+	border-radius: 8px;
+	
+}
+.search{
+	width: 500px;
+	height: 50px;
+	border-radius: 8px;
+}
+.sidebar{
+	background-image: linear-gradient(to bottom right, red,black);
+	display: flex;
+	flex: 3;
+	flex-direction: column;
+	align-items: center;
+	height: 550px;
+	align-content: center;
+	justify-content: space-evenly;
+	
+}
+.content-form{
+	display: flex;
+	flex-direction: column;
+	flex: 9;
+	justify-content: space-around;
+	align-items: center;
+	background-image: linear-gradient(to bottom right, red,black);
+}
+.forms{
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	align-items: center;
+	font-size: 20px;
+	border: 2px solid;
+	padding: 20px;
+	color: yellow;
+	
+}
+h1{
+	text-align: center;
+	color: yellow;
+}
+.submit{
+	margin-top: 10px;
+	font-size: 20px;
+	margin-left: 220px;
+	width: 100px;
+}
+input,select{
+	display: flex;
+	align-items: center;
+	width: 200px;
+}
+p{
+	margin: 20px;
+	color: white;
+}
+.form-row{
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+}	
+label{
+	display: flex;
+	width: 150px;
+	flex-shrink: 0;
+}
+.box{
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	flex-position: flex-start;
+}
